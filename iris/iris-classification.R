@@ -10,7 +10,8 @@ library(caret) # Package for machine learning algorithms / CARET stands for Clas
 
 # Importing the Iris data set
 data(iris)
-
+#View the data
+View(iris)
 # Check to see if there are missing data?
 sum(is.na(iris))
 
